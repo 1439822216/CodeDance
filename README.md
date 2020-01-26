@@ -1,14 +1,24 @@
-# coding-dance
-跳舞的代码
+一、目录结构
+-CodeDance
+ |
+ |--bak--原项目的备份文件
+ |
+ |--video
+ |  |
+ |  |--test.mp4--项目测试使用的原视频文件
+ |  |
+ |  |--test-code.mp4--原视频文件生成的代码式视频文件
+ |
+ |--video_2_code_video.py--实现代码
 
+二、环境
+操作系统： Windows
+Python版本： Python3.7
+依赖库： pip install opencv-python pillow
+依赖程序： ffmpeg（路径需加入PATH环境变量）
 
-## 参考文档
-<https://my.oschina.net/crossin/blog/2396095>  
-<https://www.itcodemonkey.com/article/7103.html>  
-<https://blog.csdn.net/mp624183768/article/details/81161260>  
-<https://www.cnblogs.com/TurboWay/p/9748535.html>  
-<https://www.cnblogs.com/TurboWay/p/9748535.html>
+三、使用
+在config_dict中配置好输入的视频文件路径，直接运行video_2_code_video.py即可
 
-AI:  
-<https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation>
-<https://github.com/tensorflow/tfjs-models/tree/master/posenet>
+四、更多说明
+更多说明见：https://www.cnblogs.com/lsdb/p/12234159.html
